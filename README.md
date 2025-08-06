@@ -31,15 +31,16 @@ What sets this project apart is its focus on realism, allowing users to factor i
 
 ### ✨ Key Features
 
--   **Four Distinct Optimization Models**:
+-   **Advanced Optimization Models**: Compare four distinct strategies:
     -   **Mean-Variance**: The classic Markowitz model for balancing risk and return.
-    -   **Risk Parity**: Aims for equal risk contribution from each asset in the portfolio.
-    -   **Hierarchical Risk Parity (HRP)**: A modern, machine-learning-based approach that mitigates the instability of quadratic optimizers.
-    -   **Equally Weighted**: A simple, yet surprisingly effective, baseline strategy.
--   **Realistic Cost Simulation**: Accurately models initial investment costs to provide a net-of-fees performance view.
--   **Dynamic Backtesting**: Select any historical start date and run a simulation up to the present day.
--   **In-Depth Performance Analysis**: Instantly get key metrics like cumulative returns and annualized volatility.
--   **Interactive & Polished UI**: Built with Streamlit for a clean, responsive, and user-friendly experience.
+    -   **Risk Parity**: Aims for equal risk contribution from each asset.
+    -   **Hierarchical Risk Parity (HRP)**: A modern, machine-learning-based approach.
+    -   **Equally Weighted**: A simple, yet effective, baseline.
+-   **Dynamic Rebalancing Strategies**: Simulate a more active investment approach by choosing a rebalancing frequency (Monthly, Quarterly, or Annually).
+-   **Comprehensive Performance Metrics**: Go beyond simple returns with advanced risk-adjusted metrics like the **Sharpe Ratio**, **Sortino Ratio**, and **Calmar Ratio**.
+-   **Customizable Stock Universe**: Test strategies on the predefined Nifty 50 basket or **provide your own list of custom stock tickers**.
+-   **Save & Compare Scenarios**: Run multiple backtests with different settings and **compare their performance charts and metrics side-by-side** in a single view.
+-   **Realistic Cost Simulation**: Accurately models the total impact of brokerage, taxes, and slippage throughout the entire backtesting period.
 
 ---
 
@@ -53,12 +54,12 @@ What sets this project apart is its focus on realism, allowing users to factor i
 
 <table align="center">
   <tr>
-    <td align="center"><b>Main Dashboard View</b></td>
-    <td align="center"><b>Configuration & Cost Simulation</b></td>
+    <td align="center"><b>Main Dashboard View with Advanced Metrics</b></td>
+    <td align="center"><b>Strategy Comparison Dashboard</b></td>
   </tr>
   <tr>
     <td><img src="assets/ss1.png" alt="Main Dashboard Screenshot" width="100%"></td>
-    <td><img src="assets/ss2.png" alt="Configuration Sidebar Screenshot" width="100%"></td>
+    <td><img src="assets.ss2.png" alt="Strategy Comparison Screenshot" width="100%"></td>
   </tr>
 </table>
 
@@ -108,10 +109,10 @@ This project leverages a powerful stack of data science and web development libr
 
 ### 💡 Future Improvements
 
--   [ ] Implement portfolio rebalancing strategies (e.g., monthly, quarterly).
--   [ ] Add more advanced performance metrics (e.g., Sharpe Ratio, Sortino Ratio, Calmar Ratio).
--   [ ] Allow users to upload their own list of stock tickers.
--   [ ] Add functionality to save and compare different backtest results.
+-   [ ] Add functionality to export backtest results (metrics, allocation) to a CSV file.
+-   [ ] Incorporate sector constraints into the optimization models.
+-   [ ] Visualize portfolio turnover and transaction costs over time.
+-   [ ] Implement additional optimization models like Black-Litterman.
 
 ---
 
