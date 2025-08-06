@@ -59,7 +59,7 @@ What sets this project apart is its focus on realism, allowing users to factor i
   </tr>
   <tr>
     <td><img src="assets/ss1.png" alt="Main Dashboard Screenshot" width="100%"></td>
-    <td><img src="assets.ss2.png" alt="Strategy Comparison Screenshot" width="100%"></td>
+    <td><img src="assets/ss2.png" alt="Strategy Comparison Screenshot" width="100%"></td>
   </tr>
 </table>
 
