@@ -54,8 +54,8 @@ What sets this project apart is its focus on realism, allowing users to factor i
 
 <table align="center">
   <tr>
-    <td align="center"><b>Main Dashboard View with Advanced Metrics</b></td>
-    <td align="center"><b>Strategy Comparison Dashboard</b></td>
+    <td align="center"><b>DEMO Screenshot 01</b></td>
+    <td align="center"><b>DEMO Screenshot 02</b></td>
   </tr>
   <tr>
     <td><img src="assets/ss1.png" alt="Main Dashboard Screenshot" width="100%"></td>
