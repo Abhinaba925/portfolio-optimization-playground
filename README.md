@@ -46,7 +46,6 @@ What sets this project apart is its focus on realism, allowing users to factor i
 
 ### 📸 Live Demo & Screenshots
 
-*(You can add a link to your deployed Streamlit Cloud app here)*
 
 **`[ Live Demo Coming Soon ]`**
 
