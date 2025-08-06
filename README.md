@@ -1,91 +1,129 @@
 <div align="center">
-<img src="https://www.google.com/search?q=https://i.imgur.com/your-logo-url.png" alt="Logo" width="120"/> <!-- Optional: Add a logo here if you have one -->
-<h1 align="center">📈 Portfolio Optimization Playground</h1>
-<p align="center">
-A dynamic web application for backtesting and comparing modern portfolio optimization strategies on Indian stock market data.
-<br />
-<a href="#-features"><strong>Features</strong></a>
-·
-<a href="#-screenshots"><strong>Screenshots</strong></a>
-·
-<a href="#-setup--installation"><strong>Setup</strong></a>
-</p>
+
+  <h1 align="center">📈 Portfolio Optimization Playground 📈</h1>
+
+  <p align="center">
+    A sophisticated web application for backtesting and comparing modern portfolio optimization strategies on the Indian stock market.
+    <br />
+    <a href="#-about-the-project"><strong>About</strong></a> ·
+    <a href="#-key-features"><strong>Features</strong></a> ·
+    <a href="#-live-demo--screenshots"><strong>Demo & Screenshots</strong></a> ·
+    <a href="#-how-to-run"><strong>Run Locally</strong></a>
+  </p>
+
+  <p align="center">
+    <img src="https://img.shields.io/badge/Python-3.8+-blue.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python Version">
+    <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Made with Streamlit">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License: MIT">
+  </p>
+
 </div>
+
+---
+
+### 📋 About The Project
+
+The **Portfolio Optimization Playground** provides an intuitive, hands-on environment for both novice and experienced investors to explore financial portfolio theory. It fetches live stock data from the National Stock Exchange (NSE), applies a suite of sophisticated optimization algorithms, and simulates portfolio performance against the Nifty 50 benchmark.
+
+What sets this project apart is its focus on realism, allowing users to factor in real-world costs like brokerage fees, transaction taxes, and execution slippage to get a true sense of a strategy's viability.
+
+---
+
+### ✨ Key Features
+
+-   **Four Distinct Optimization Models**:
+    -   **Mean-Variance**: The classic Markowitz model for balancing risk and return.
+    -   **Risk Parity**: Aims for equal risk contribution from each asset in the portfolio.
+    -   **Hierarchical Risk Parity (HRP)**: A modern, machine-learning-based approach that mitigates the instability of quadratic optimizers.
+    -   **Equally Weighted**: A simple, yet surprisingly effective, baseline strategy.
+-   **Realistic Cost Simulation**: Accurately models initial investment costs to provide a net-of-fees performance view.
+-   **Dynamic Backtesting**: Select any historical start date and run a simulation up to the present day.
+-   **In-Depth Performance Analysis**: Instantly get key metrics like cumulative returns and annualized volatility.
+-   **Interactive & Polished UI**: Built with Streamlit for a clean, responsive, and user-friendly experience.
+
+---
+
+### 📸 Live Demo & Screenshots
+
+*(You can add a link to your deployed Streamlit Cloud app here)*
+
+**`[ Live Demo Coming Soon ]`**
 
 <br>
 
-<!-- ABOUT THE PROJECT -->
+<table align="center">
+  <tr>
+    <td align="center"><b>Main Dashboard View</b></td>
+    <td align="center"><b>Configuration & Cost Simulation</b></td>
+  </tr>
+  <tr>
+    <td><img src="assets/ss1.png" alt="Main Dashboard Screenshot" width="100%"></td>
+    <td><img src="assets/ss2.png" alt="Configuration Sidebar Screenshot" width="100%"></td>
+  </tr>
+</table>
 
-📋 About The Project
-This application provides a hands-on environment to explore financial portfolio theory. It fetches live stock data, applies sophisticated optimization algorithms, and simulates performance against the Nifty 50 benchmark, all while accounting for real-world trading costs.
+---
 
-✨ Features
-Four Optimization Models: Compare the performance of:
+### 🚀 How To Run
 
-Mean-Variance: The classic Markowitz model.
-
-Risk Parity: Aims for equal risk contribution from each asset.
-
-Hierarchical Risk Parity (HRP): A modern, machine-learning-based approach.
-
-Equally Weighted: A simple, yet effective, baseline strategy.
-
-Realistic Cost Simulation: Accurately models initial investment costs, including:
-
-Brokerage Fees
-
-Transaction Taxes (STT)
-
-Execution Slippage
-
-Dynamic Backtesting: Select any historical start date to run a simulation up to the present day.
-
-In-Depth Performance Analysis: Get key metrics like cumulative returns and annualized volatility.
-
-Interactive & Polished UI: Built with Streamlit for a smooth user experience.
-
-🖼️ Screenshots
-<div align="center">
-<p><i>Main dashboard showing performance chart and allocation details.</i></p>
-<img src="./assets/ss1.png" alt="App Screenshot 1" width="80%">
-<br><br>
-<p><i>Configuration sidebar with cost simulation options.</i></p>
-<img src="./assets/ss2.png" alt="App Screenshot 2" width="80%">
-</div>
-
-🛠️ Setup & Installation
 To get a local copy up and running, follow these simple steps.
 
-Prerequisites
+#### Prerequisites
 
-Python 3.8+
+-   Python 3.8+ & Pip
 
-Pip (Python package installer)
+#### Installation
 
-Installation
+1.  **Clone the repository:**
+    ```sh
+    git clone [https://github.com/Abhinaba925/portfolio-optimization-playground.git](https://github.com/Abhinaba925/portfolio-optimization-playground.git)
+    cd portfolio-optimization-playground
+    ```
+2.  **Install the required packages:**
+    ```sh
+    pip install -r requirements.txt
+    ```
+3.  **Run the Streamlit app:**
+    ```sh
+    streamlit run app.py
+    ```
+    The application will automatically open in your default web browser.
 
-Clone the repository:
+---
 
-git clone [https://github.com/Abhinaba925/portfolio-optimization-playground.git](https://github.com/Abhinaba925/portfolio-optimization-playground.git)
-cd portfolio-optimization-playground
+### 🛠️ Technologies Used
 
-Install the required packages:
+This project leverages a powerful stack of data science and web development libraries:
 
-pip install -r requirements.txt
+| Technology                                                                                                  | Description                               |
+| ----------------------------------------------------------------------------------------------------------- | ----------------------------------------- |
+| **[Streamlit](https://streamlit.io/)** | Core web application framework            |
+| **[yfinance](https://pypi.org/project/yfinance/)** | Downloading historical stock market data  |
+| **[Pandas](https://pandas.pydata.org/)** | Data manipulation and analysis            |
+| **[NumPy](https://numpy.org/)** | Numerical operations and linear algebra   |
+| **[SciPy](https://scipy.org/)** | Scientific computing and optimization     |
+| **[Matplotlib](https://matplotlib.org/)** | Data visualization and plotting           |
 
-Run the Streamlit app:
+---
 
-streamlit run app.py
+### 💡 Future Improvements
 
-The application will open in your default web browser.
+-   [ ] Implement portfolio rebalancing strategies (e.g., monthly, quarterly).
+-   [ ] Add more advanced performance metrics (e.g., Sharpe Ratio, Sortino Ratio, Calmar Ratio).
+-   [ ] Allow users to upload their own list of stock tickers.
+-   [ ] Add functionality to save and compare different backtest results.
 
-🔧 Built With
-This project was built using the following technologies:
+---
 
-<p align="left">
-<a href="https://www.python.org" target="_blank"> <img src="https://www.google.com/search?q=https://img.shields.io/badge/Python-3776AB%3Fstyle%3Dfor-the-badge%26logo%3Dpython%26logoColor%3Dwhite" alt="Python"/> </a>
-<a href="https://streamlit.io" target="_blank"> <img src="https://www.google.com/search?q=https://img.shields.io/badge/Streamlit-FF4B4B%3Fstyle%3Dfor-the-badge%26logo%3Dstreamlit%26logoColor%3Dwhite" alt="Streamlit"/> </a>
-<a href="https://pandas.pydata.org/" target="_blank"> <img src="https://www.google.com/search?q=https://img.shields.io/badge/Pandas-150458%3Fstyle%3Dfor-the-badge%26logo%3Dpandas%26logoColor%3Dwhite" alt="Pandas"/> </a>
-<a href="https://numpy.org/" target="blank"> <img src="https://www.google.com/search?q=https://img.shields.io/badge/NumPy-013243%3Fstyle%3Dfor-the-badge%26logo%3Dnumpy%26logoColor%3Dwhite" alt="NumPy"/> </a>
-<a href="https://scipy.org/" target=""
+### 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
+
+### 📬 Contact
+
+Abhinaba Ghosh - [Your LinkedIn Profile URL] - abhinaba.ghosh.925@gmail.com
+
+Project Link: [https://github.com/Abhinaba925/portfolio-optimization-playground](https://github.com/Abhinaba925/portfolio-optimization-playground)
 
