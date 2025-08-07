@@ -123,7 +123,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ### 📬 Contact
 
-Abhinaba Ghosh - [https://www.linkedin.com/in/abhinaba-ghosh-293a83155/] - abhinaba.ghosh.925@gmail.com
+Abhinaba Ghosh - [https://www.linkedin.com/in/abhinaba-ghosh-293a83155/] - abhinabaghosh.iit@gmail.com
 
 Project Link: [https://github.com/Abhinaba925/portfolio-optimization-playground](https://github.com/Abhinaba925/portfolio-optimization-playground)
 
